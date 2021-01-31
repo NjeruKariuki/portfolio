@@ -14,7 +14,6 @@ from django.contrib.auth.decorators import login_required
 def home(request):
     return render(request,'blog/dashboard.html')
 
-@login_required(login_url="login")
 def contact(request):
 	if request.method == "POST":
 		message_name = request.POST['message-name']
@@ -34,7 +33,6 @@ def contact(request):
 		return render(request, 'blog/contact.html', {})
 
 
-@login_required(login_url="login")
 def downloads(request):
     return render(request, 'blog/downloads.html')
 
