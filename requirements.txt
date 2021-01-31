@@ -45,7 +45,6 @@ cffi==1.14.3
 Chameleon==3.8.1
 chardet==3.0.4
 CherryPy==8.9.1
-chirp==0.3.0.dev0
 click==7.1.2
 click-plugins==1.1.1
 colorama==0.4.3
